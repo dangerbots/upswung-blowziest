@@ -5,14 +5,6 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 COPY . .
 
-RUN ./CHARLIE
+CMD ["python3", "start.py"]
 
-############
-#   hello  #
-############
-
-WORKDIR root/MyTGBot
-
-CMD ./CARTOOS
-
-#####################################
+####################################
