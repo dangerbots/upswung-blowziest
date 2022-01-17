@@ -5,6 +5,6 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 COPY . .
 
-CMD ["python3", "start.py"]
+CMD ["bash", "start.sh"]
 
 ####################################
