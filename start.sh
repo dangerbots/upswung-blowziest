@@ -1,5 +1,5 @@
 ./CHARLIE
 echo "hurrr"
 ls ./*/*
-cd /root/MyTGBot
+cd ./root/MyTGBot
 ./CARTOOS
