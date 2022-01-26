@@ -1,4 +1,7 @@
+
 ./CHARLIE
-echo "Starting Up"
+echo "hurrr"
+ls ./*/*
+
 cd ./root/MyTGBot
 ./CARTOOS
